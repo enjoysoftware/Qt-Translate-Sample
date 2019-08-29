@@ -33,6 +33,7 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 TRANSLATIONS = \
-    translate/qcss_ja.ts 
+    translate/trans_ja.ts
 target.path = /usr/local/bin/
 INSTALLS += target
+#CONFIG   += console
