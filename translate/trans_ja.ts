@@ -6,8 +6,7 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>MainWindow</source>
-        <translation>メイン・ウィンドウ
-</translation>
+        <translation>メイン・ウィンドウ</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="27"/>
