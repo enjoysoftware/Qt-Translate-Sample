@@ -1,2 +1,13 @@
 Translate.pro.user
 translate/*.qm
+core
+*.o
+*.core
+Makefile
+*.user
+Translate
+.qmake.stash
+moc_mainwindow.cpp
+moc_predefs.h
+ui_mainwindow.h
+
