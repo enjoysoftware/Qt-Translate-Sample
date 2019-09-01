@@ -33,7 +33,7 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 TRANSLATIONS = \
-    translate/trans_ja.ts
+    translate/trans_ja_JP.ts
 target.path = /usr/local/bin/
 INSTALLS += target
 #CONFIG   += console
