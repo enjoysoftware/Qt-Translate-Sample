@@ -19,7 +19,7 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    QString hello=tr("Hello!");
+    QString hello=tr("[Message] The button was clicked.  function 'on_pushButton_2_clicked ()'  called.\n");
     std::string hello1 = hello.toUtf8().constData();//Qstringからstd::stringへ
     std::cout << hello1;
 }
