@@ -35,5 +35,5 @@ FORMS += \
 TRANSLATIONS = \
     translate/trans_ja_JP.ts
 target.path = /usr/local/bin/
-INSTALLS += target
+#INSTALLS += target
 #CONFIG   += console
