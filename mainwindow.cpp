@@ -19,7 +19,13 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
+    QMessageBox::information(this,tr("Clicked!"),tr("The button was clicked."));
     QString hello=tr("[Message] The button was clicked.  function 'on_pushButton_2_clicked ()'  called.\n");
     std::string hello1 = hello.toUtf8().constData();//Qstringからstd::stringへ
     std::cout << hello1;
+}
+
+void MainWindow::on_actionAbout_Qt_triggered()
+{
+        QMessageBox::aboutQt(this);
 }
