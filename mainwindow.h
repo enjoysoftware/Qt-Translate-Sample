@@ -5,6 +5,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <QDialog>
+#include <QMessageBox>
 namespace Ui {
 class MainWindow;
 }
@@ -21,6 +22,8 @@ private slots:
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
+
+    void on_actionAbout_Qt_triggered();
 
 private:
     Ui::MainWindow *ui;
