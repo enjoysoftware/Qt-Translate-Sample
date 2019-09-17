@@ -1,7 +1,20 @@
 # Qt-Translate-Sample
 Qtリンギストを使用したQtの翻訳サンプルです。
-# ビルドするには
-以下のコマンドを利用してください。
+一部適当な作りになっていることがありますが、ご了承ください。
+なお、インストールはバグのために一時的に利用できない状態となっております。ご了承ください。
+# 依存ライブラリ
+Qt5           (`qtbase5-dev`)
+
+### 依存ライブラリのインストール(Ubuntu)
+```bash
+sudo apt install qtbase5-dev
+```
+# ソースコードをクローンする
+
+```bash
+git clone https://github.com/sunboy3/Qt-Translate-Sample
+```
+# ビルドする
 
 ```bash
 lrelease Translate.pro
