@@ -1,4 +1,6 @@
 # Qt-Translate-Sample
+![ライセンス](https://img.shields.io/github/license/sunboy3/Qt-Translate-Sample)
+
 Qtリンギストを使用したQtの翻訳サンプルです。
 一部適当な作りになっていることがありますが、ご了承ください。
 なお、インストールはバグのために一時的に利用できない状態となっております。ご了承ください。
