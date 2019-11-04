@@ -37,3 +37,6 @@ TRANSLATIONS = \
 target.path = /usr/local/bin/
 #INSTALLS += target
 #CONFIG   += console
+
+RESOURCES += \
+    translations.qrc
