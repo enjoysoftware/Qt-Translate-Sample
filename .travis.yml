@@ -1,4 +1,4 @@
 language: cpp
 script:
-  - qmake
+  - qmake && lrelease Translate.pro
   - make -j2
