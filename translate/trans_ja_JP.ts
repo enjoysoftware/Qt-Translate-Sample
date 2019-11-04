@@ -4,27 +4,37 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../mainwindow.ui" line="17"/>
         <source>MainWindow</source>
         <translation>メインウィンドウ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="27"/>
+        <location filename="../mainwindow.ui" line="39"/>
         <source>Exit</source>
         <translation>終了</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="40"/>
+        <location filename="../mainwindow.ui" line="52"/>
         <source>Show a message</source>
         <translation>メッセージを表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="55"/>
+        <location filename="../mainwindow.ui" line="65"/>
+        <source>Show a new message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="78"/>
+        <source>CommandLinkButton</source>
+        <translation>コマンドリンクボタン</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="106"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="72"/>
+        <location filename="../mainwindow.ui" line="126"/>
         <source>About Qt</source>
         <translation>Qt について</translation>
     </message>
@@ -44,6 +54,26 @@
 </source>
         <translation>[メッセージ] ボタンがクリックされました。関数 &apos;on_pushButton_2_clicked()&apos;  が呼ばれました。
 </translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="32"/>
+        <source>Warning</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="32"/>
+        <source>This is a new message.</source>
+        <translation>これは新しいメッセージ。</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="35"/>
+        <source>Rejected</source>
+        <translation>拒否された</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="35"/>
+        <source>Rejected.</source>
+        <translation>拒絶。</translation>
     </message>
 </context>
 </TS>

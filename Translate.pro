@@ -10,7 +10,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Translate
 TEMPLATE = app
-
+#QMAKE_CXX=clang
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which has been marked as deprecated (the exact warnings
 # depend on your compiler). Please consult the documentation of the
@@ -34,8 +34,16 @@ FORMS += \
         mainwindow.ui
 TRANSLATIONS = \
     translate/trans_ja_JP.ts
-target.path = /usr/local/bin/
-#INSTALLS += target
+unix {
+isEmpty(PREFIX): PREFIX = /usr/
+DEFINES=PREFIX=$${PREFIX}
+DATA_DIR=$${PREFIX}/share
+desktop.path = $${DATA_DIR}/applications
+desktop.files += translate.desktop
+target.path = /opt/Translate/
+INSTALLS += target desktop
+message("This is a sample script. This app will installed to /opt/Translate")
+}
 #CONFIG   += console
 
 RESOURCES += \
