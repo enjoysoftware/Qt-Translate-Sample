@@ -20,7 +20,6 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralWidget">
-<<<<<<< Updated upstream
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="pushButton">
@@ -37,7 +36,6 @@
      </widget>
     </item>
    </layout>
-=======
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
@@ -109,7 +107,6 @@
      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
     </property>
    </widget>
->>>>>>> Stashed changes
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
