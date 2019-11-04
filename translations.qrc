@@ -1,2 +1,6 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/">
+        <file>translate/trans_ja_JP.qm</file>
+        <file>translate/trans_ja_JP.ts</file>
+    </qresource>
+</RCC>
