@@ -36,77 +36,6 @@
      </widget>
     </item>
    </layout>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>190</y>
-      <width>301</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="text">
-     <string>Exit</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>10</y>
-      <width>241</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Show a message</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>100</y>
-      <width>241</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Show a new message</string>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="commandLinkButton">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>30</y>
-      <width>187</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CommandLinkButton</string>
-    </property>
-   </widget>
-   <widget class="QDialogButtonBox" name="buttonBox">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>140</y>
-      <width>223</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="standardButtons">
-     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -114,7 +43,7 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>32</height>
+     <height>31</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuHelp">
@@ -145,72 +74,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot1()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>124</x>
-     <y>180</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>356</x>
-     <y>181</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>accepted()</signal>
-   <receiver>commandLinkButton</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>360</x>
-     <y>211</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>356</x>
-     <y>89</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>commandLinkButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot1()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>378</x>
-     <y>102</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>378</x>
-     <y>137</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>rejected()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>kyozetu()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>329</x>
-     <y>201</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>381</x>
-     <y>261</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
  <slots>
   <slot>slot1()</slot>
   <slot>kyozetu()</slot>
