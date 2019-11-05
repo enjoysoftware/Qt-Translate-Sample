@@ -1,5 +1,6 @@
 # Qt-Translate-Sample
 ![ライセンス](https://img.shields.io/github/license/sunboy3/Qt-Translate-Sample)
+[![Build Status](https://travis-ci.com/enjoysoftware/Qt-Translate-Sample.svg?branch=master)](https://travis-ci.com/enjoysoftware/Qt-Translate-Sample)
 
 Qtリンギストを使用したQtの翻訳サンプルです。
 一部適当な作りになっていることがありますが、ご了承ください。
