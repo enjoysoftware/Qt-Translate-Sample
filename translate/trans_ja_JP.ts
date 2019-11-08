@@ -6,54 +6,43 @@
     <message>
         <location filename="../mainwindow.ui" line="17"/>
         <source>MainWindow</source>
-        <translation>メインウィンドウ</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="39"/>
+        <location filename="../mainwindow.ui" line="27"/>
         <source>Exit</source>
         <translation>終了</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="52"/>
+        <location filename="../mainwindow.ui" line="34"/>
         <source>Show a message</source>
         <translation>メッセージを表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="65"/>
-        <source>Show a new message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="78"/>
-        <source>CommandLinkButton</source>
-        <translation>コマンドリンクボタン</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="106"/>
+        <location filename="../mainwindow.ui" line="51"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="126"/>
+        <location filename="../mainwindow.ui" line="71"/>
         <source>About Qt</source>
-        <translation>Qt について</translation>
+        <translation>キュートについて</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="22"/>
         <source>Clicked!</source>
-        <translation>クリックされました!</translation>
+        <translation>クリックされました！</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="22"/>
         <source>The button was clicked.</source>
-        <translation>ボタンがクリックされました。</translation>
+        <translation>そのボタンはクリックされた。</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="23"/>
         <source>[Message] The button was clicked.  function &apos;on_pushButton_2_clicked ()&apos;  called.
 </source>
-        <translation>[メッセージ] ボタンがクリックされました。関数 &apos;on_pushButton_2_clicked()&apos;  が呼ばれました。
-</translation>
+        <translation>ボタンはクリックされた。関数呼ばれた</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="32"/>
@@ -68,12 +57,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="35"/>
         <source>Rejected</source>
-        <translation>拒否された</translation>
+        <translation>拒否</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="35"/>
         <source>Rejected.</source>
-        <translation>拒絶。</translation>
+        <translation>拒否。</translation>
     </message>
 </context>
 </TS>
