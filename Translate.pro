@@ -35,14 +35,14 @@ FORMS += \
 TRANSLATIONS = \
     translate/trans_ja_JP.ts
 unix {
-isEmpty(PREFIX): PREFIX = /usr/
+isEmpty(PREFIX): PREFIX = /usr/local
 DEFINES=PREFIX=$${PREFIX}
 DATA_DIR=$${PREFIX}/share
 desktop.path = $${DATA_DIR}/applications
-desktop.files += translate.desktop
-target.path = /opt/Translate/
+desktop.files += desktop/translate.desktop
+target.path = $${PREFIX}/bin/
 INSTALLS += target desktop
-message("This is a sample script. This app will installed to /opt/Translate")
+message("This is a translation sample. This app will be installed to $${PREFIX}")
 }
 #CONFIG   += console
 
