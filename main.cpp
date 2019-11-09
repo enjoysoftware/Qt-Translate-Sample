@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
       translator.load("trans_"+QLocale::system().name(),":translate");
 //      qDebug() << QString(PREFIX);
       qDebug() << "Your locale is" << QLocale::system().name();
-      translator.load("translate/trans_" + QLocale::system().name());
       a.installTranslator(&translator);
       qDebug()<< "[Message]Finished loading translation files.";
       // <---
