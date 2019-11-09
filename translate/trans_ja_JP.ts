@@ -21,7 +21,7 @@
     <message>
         <location filename="../mainwindow.ui" line="65"/>
         <source>Show a new message</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいメッセージを表示</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="78"/>
