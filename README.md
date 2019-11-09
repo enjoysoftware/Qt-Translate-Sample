@@ -3,8 +3,7 @@
 [![Build Status](https://travis-ci.com/enjoysoftware/Qt-Translate-Sample.svg?branch=master)](https://travis-ci.com/enjoysoftware/Qt-Translate-Sample)
 
 Qtリンギストを使用したQtの翻訳サンプルです。
-一部適当な作りになっていることがありますが、ご了承ください。
-なお、インストールはバグのために一時的に利用できない状態となっております。ご了承ください。
+学習用としてご使用ください。なお、インストール機能のバグは解消いたしました。大変ご迷惑をおかけしました。
 # 依存ライブラリ
 Qt5           (`qtbase5-dev`)
 
@@ -29,4 +28,9 @@ make
 ```bash
 ./Translate 
 ```
+# インストールする
 
+##(Linuxのみ)
+```bash
+sudo make install
+```
