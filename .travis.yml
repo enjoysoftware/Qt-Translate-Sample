@@ -1,4 +1,10 @@
 language: cpp
+dist: bionic
+os: linux
+arch:
+  - i386
+  - amd64
+  - armhf
 script:
-  - qmake && lrelease Translate.pro
+  - lrelease Translate.pro && qmake && echo "Complete!"
   - make -j2
