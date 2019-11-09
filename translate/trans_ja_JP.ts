@@ -19,7 +19,17 @@
         <translation>メッセージを表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="51"/>
+        <location filename="../mainwindow.ui" line="65"/>
+        <source>Show a new message</source>
+        <translation>新しいメッセージを表示</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="78"/>
+        <source>CommandLinkButton</source>
+        <translation>コマンドリンクボタン</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="106"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
