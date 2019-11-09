@@ -10,4 +10,4 @@ Translate
 moc_mainwindow.cpp
 moc_predefs.h
 ui_mainwindow.h
-
+qrc_translations.cpp
