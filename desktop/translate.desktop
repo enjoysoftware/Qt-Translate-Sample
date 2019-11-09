@@ -3,5 +3,6 @@ Name[ja]=トランスレートサンプル
 Name=Translate Sample
 Exec=Translate
 StartupNotify=true
-Categories=Development;Qt;Sample;
+Categories=Development;Qt;
 Type=Application
+X-Desktop-File-Install-Version=0.23
