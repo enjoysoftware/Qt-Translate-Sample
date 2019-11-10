@@ -14,7 +14,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    exit(0);
+    this->close();
 }
 
 void MainWindow::on_pushButton_2_clicked()
@@ -33,4 +33,14 @@ void MainWindow::slot1(){
 }
 void MainWindow::kyozetu(){
     QMessageBox::information(this,tr("Rejected"),tr("Rejected."));
+}
+void MainWindow::showName(){
+    QString name=ui->nameEdit->text();
+    if(name == ""){
+        name="No name";
+    }
+    QMessageBox::information(this,tr("Your name is %1").arg(name),tr("Your name is %1.\nThank you for clicking.").arg(name));
+}
+void MainWindow::closeEvent(QCloseEvent *e){
+    qDebug() << "Exit program";
 }

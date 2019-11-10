@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <QDialog>
 #include <QMessageBox>
+#include <QCloseEvent>
+#include <QDebug>
 namespace Ui {
 class MainWindow;
 }
@@ -23,10 +25,12 @@ private slots:
     void on_pushButton_2_clicked();
     void slot1();
     void kyozetu();
+    void showName();
     void on_actionAbout_Qt_triggered();
 
 private:
     Ui::MainWindow *ui;
+    void closeEvent(QCloseEvent *e);
 };
 
 #endif // MAINWINDOW_H
