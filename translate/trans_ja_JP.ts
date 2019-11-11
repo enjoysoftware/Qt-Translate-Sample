@@ -19,22 +19,30 @@
         <translation>メッセージを表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="65"/>
+        <location filename="../mainwindow.ui" line="43"/>
+        <source>Your name:</source>
+        <translation>名前：</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="79"/>
+        <source>Please click when you want to show your name.↓</source>
+        <translation>名前を表示したいときにクリックしてください。↓</translation>
+    </message>
+    <message>
         <source>Show a new message</source>
-        <translation>新しいメッセージを表示</translation>
+        <translation type="vanished">新しいメッセージを表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="78"/>
         <source>CommandLinkButton</source>
-        <translation>コマンドリンクボタン</translation>
+        <translation type="vanished">コマンドリンクボタン</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="106"/>
+        <location filename="../mainwindow.ui" line="98"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="71"/>
+        <location filename="../mainwindow.ui" line="118"/>
         <source>About Qt</source>
         <translation>キュートについて</translation>
     </message>
@@ -52,7 +60,8 @@
         <location filename="../mainwindow.cpp" line="23"/>
         <source>[Message] The button was clicked.  function &apos;on_pushButton_2_clicked ()&apos;  called.
 </source>
-        <translation>ボタンはクリックされた。関数呼ばれた</translation>
+        <translation>[メッセージ] ボタンがクリックされました。関数 &apos;on_pushButton_2_clicked ()&apos;が呼ばれました。
+</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="32"/>
@@ -73,6 +82,18 @@
         <location filename="../mainwindow.cpp" line="35"/>
         <source>Rejected.</source>
         <translation>拒否。</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="42"/>
+        <source>Your name is %1</source>
+        <translation>あなたの名前は%1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="42"/>
+        <source>Your name is %1.
+Thank you for clicking.</source>
+        <translation>あなたの名前は%1です。
+クリックしてくれて、ありがとう。</translation>
     </message>
 </context>
 </TS>
