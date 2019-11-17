@@ -8,33 +8,33 @@
 
 Qtリンギストを使用したQtの翻訳サンプルです。
 学習用としてご使用ください。なお、インストール機能のバグは解消いたしました。大変ご迷惑をおかけしました。
-# 依存ライブラリ
+## 依存ライブラリ
 Qt5           (`qtbase5-dev`)
 
 ### 依存ライブラリのインストール(Ubuntu)
 ```bash
 sudo apt install qtbase5-dev
 ```
-# ソースコードをクローンする
+## ソースコードをクローンする
 
 ```bash
 git clone https://github.com/sunboy3/Qt-Translate-Sample
 ```
-# ビルドする
+## ビルドする
 
 ```bash
 lrelease Translate.pro
 qmake
 make
 ```
-# 実行する
+## 実行する
 
 ```bash
 ./Translate 
 ```
-# インストールする
+## インストールする
 
-## (Linuxのみ)
+### (Linuxのみ)
 ```bash
 sudo make install
 ```
