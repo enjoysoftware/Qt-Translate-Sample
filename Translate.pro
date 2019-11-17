@@ -34,6 +34,12 @@ FORMS += \
         mainwindow.ui
 TRANSLATIONS = \
     translate/trans_ja_JP.ts
+# translations
+message("Qt is in $$[QT_INSTALL_BINS].")
+#lrelease.input         = TRANSLATIONS
+#lrelease.output        = translate/${QMAKE_FILE_BASE}.qm
+lrelease.commands      = $$[QT_INSTALL_BINS]/lrelease Translate.pro
+QMAKE_EXTRA_TARGETS += lrelease
 unix {
 isEmpty(PREFIX): PREFIX = /usr/local
 DEFINES=PREFIX=$${PREFIX}
