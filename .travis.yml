@@ -2,9 +2,8 @@ language: cpp
 dist: bionic
 os: linux
 arch:
-  - i386
   - amd64
-  - armhf
+  - i386
 script:
   - lrelease Translate.pro && qmake && echo "Complete!"
   - make -j2
